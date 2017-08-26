@@ -1,0 +1,22 @@
+body {
+	background-color: gray;
+}
+h1 {
+	font-family: "Ubuntu";
+}
+p {
+	color: blue; 
+	border: solid; 
+	border-color: gold;
+	size:20;
+}
+#igor {
+	font-style: italic;
+	border: dashed;
+	border-color: green;
+}
+.exemplo{
+	color: silver;
+	border: dotted;
+	border-collapse: black;l
+}
