@@ -1,0 +1,23 @@
+th, td {
+	border: 1px solid black;
+	width: 	200px;
+}
+th{
+	background-color: 	blue
+}
+#titulo {
+	background-color: 	gray
+}
+.tabela {
+	background-color: green
+}
+.timagem{
+	 width: 	250px;
+	 height: 	150px;
+	 border: none;
+}
+.imagem {
+	width: 	250px;
+	height:	150px;
+	border: none;
+}
