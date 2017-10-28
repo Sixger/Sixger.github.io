@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilos.css">
+<head>
+	<title>Pedido</title>
+	<style type="text/css">
+		
+		p  {
+    
+    font-family: "Blackadder ITC";
+    font-size: 200%;
+			}
+
+	</style>
+</head>
+<body>
+	<center>
+	<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+		
+			<p>Dados de Contato</p>
+	
+			Nome Completo: <input type="text" name="nome" placeholder="Ex.: Regis Fernando Bender" size="40" required><br>
+			E-mail: <input type="text" name="email" placeholder="Ex.: regis@mail.com" size="40" required><br>
+			Telefone: <input type="text" name="telefone" placeholder="Ex.: 99999-9999"><br>
+			
+			<p>Informação do Pedido</p>
+		
+			Variedade: <select>
+				<option>Grãos da Malasia</option>
+				<option>Grãos do INFERNO!!</option>
+				<option>Grãos do Apocalipse</option>
+			</select><br>
+			Quantidade: <input type="number" name="quantidade" min="1" max="100" required><br>
+			Data Limite: <input type="date" name="datalimite" min="13/10/2017" required><br>
+			Tipo: <input type="radio" name="inteiro">Grãos Inteiros<br><input type="radio" name="moidos" checked>Grãos Moídos<br>
+		
+			<p> Extras:</p>
+			<input type="checkbox" name="presente"> Embalar para Presente <br>
+			<input type="checkbox" name="especial">Quero um catálogo com cafés especiais
+			
+			<p>Dados de Entrega</p>
+			
+			Endereço: <input type="text" name="endereco" placeholder="Rua Fuiz, nº666" size="62" required><br>
+			Cidade/Estado: <input type="text" name="cidade" placeholder="Frederico Westphalen" required>
+			/ <select>
+				<option>RS</option>
+				<option>SC</option>
+				<option>PR</option>
+			</select><br>
+			CEP: <input type="text" name="cep" size="5" maxlength="5" placeholder="99999" required> - <input type="text" name="cep2" size="3" maxlength="3" placeholder="999" required><br>
+			Observações: <textarea name="textfield" cols="48" rows="4" placeholder="Sem milho"></textarea> <br>
+			<input type="reset" value="Limpar"> <input type="submit" value="Enviar Pedido">
+
+</form>
+</center>
+</body>
+</html>
